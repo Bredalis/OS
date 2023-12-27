@@ -8,8 +8,10 @@ import os
 ruta = os.getcwd()
 
 # Cambiar de directorio actual
-nueva_ruta = os.chdir(r"C:/Users/Angelica Gerrero/Desktop/LenguajesDeProgramacion/BBDD/Programas")
+
+url = 'C:/Users/Angelica Gerrero/Desktop/LenguajesDeProgramacion/BBDD/Programas'
+nueva_ruta = os.chdir(url)
 directorios = os.listdir()
 
-print(f"Obtener ruta: {ruta}")
-print(f"Lista de directorios: {directorios}")
+print(f'Obtener ruta: {ruta}')
+print(f'Lista de directorios: {directorios}')

@@ -5,10 +5,12 @@ import os
 
 # Borrar multicarpetas
 
-remover = os.removedirs("A/B/C")
-renombrar = os.rename("C:/Users/Angelica Gerrero/Desktop/LenguajesDeProgramacion/Python/OS/OS", "Modulo.py")
-estadistica = os.stat("Modulo.py")
+remover = os.removedirs('A/B/C')
 
-print(f"Remover: {remover}")
+url = 'C:/Users/Angelica Gerrero/Desktop/LenguajesDeProgramacion/Python/OS/OS'
+renombrar = os.rename(url, 'Modulo.py')
+estadistica = os.stat('Modulo.py')
+
+print(f'Remover: {remover}')
 print(renombrar)
-print(f"Operacion estadistica: {estadistica}")
+print(f'Operacion estadistica: {estadistica}')

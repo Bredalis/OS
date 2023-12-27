@@ -3,7 +3,7 @@
 
 import os
 
-folder = os.mkdir("Folder") # Crear carpeta
+folder = os.mkdir('Folder') # Crear carpeta
 ruta = os.getcwd() # Obtener ruta
 
-print(f"Ruta: {ruta}")
+print(f'Ruta: {ruta}')

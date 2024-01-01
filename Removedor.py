@@ -8,9 +8,7 @@ import os
 remover = os.removedirs('A/B/C')
 
 url = 'C:/Users/Angelica Gerrero/Desktop/LenguajesDeProgramacion/Python/OS/OS'
-renombrar = os.rename(url, 'Modulo.py')
-estadistica = os.stat('Modulo.py')
 
 print(f'Remover: {remover}')
-print(renombrar)
-print(f'Operacion estadistica: {estadistica}')
+print(os.rename(url, 'Modulo.py'))
+print(f'Operacion estadistica: {os.stat('Modulo.py')}')

@@ -9,7 +9,7 @@ ruta = os.getcwd()
 
 # Cambiar de directorio actual
 
-url = 'C:/Users/Angelica Gerrero/Desktop/LenguajesDeProgramacion/BBDD/Programas'
+url = 'C:/Users/Bradalis/Desktop/LenguajesDeProgramacion/BBDD/Programas'
 nueva_ruta = os.chdir(url)
 directorios = os.listdir()
 

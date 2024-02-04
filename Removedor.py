@@ -7,7 +7,7 @@ import os
 
 remover = os.removedirs('A/B/C')
 
-url = 'C:/Users/Angelica Gerrero/Desktop/LenguajesDeProgramacion/Python/OS/OS'
+url = 'C:/Users/Bradalis/Desktop/LenguajesDeProgramacion/Python/OS/OS'
 
 print(f'Remover: {remover}')
 print(os.rename(url, 'Modulo.py'))

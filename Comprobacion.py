@@ -3,7 +3,7 @@
 
 import os
 
-url = 'C:/Users/Angelica Gerrero/Desktop/LenguajesDeProgramacion/'
+url = 'C:/Users/Bradalis/Desktop/LenguajesDeProgramacion/'
 es_archivo = os.path.isfile(url + 'Python/OS/Alegria.ico')
 es_directorio = os.path.isdir(url + 'Icon/Imagenes')
 

@@ -1,5 +1,3 @@
- 
-# Comprobar si es un archivo o directorio
 
 import os
 

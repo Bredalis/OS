@@ -1,6 +1,4 @@
 
-# Libreria
-
 import os
 
 # Obtener y mostrar directorios

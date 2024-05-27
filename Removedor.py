@@ -1,6 +1,4 @@
 
-# Libreria
-
 import os
 
 # Borrar multicarpetas

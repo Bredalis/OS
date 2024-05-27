@@ -1,9 +1,5 @@
 
-# Libreria
-
 import os
-
-# Comandos
 
 ruta = os.getcwd()
 

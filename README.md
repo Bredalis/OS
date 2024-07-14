@@ -1,8 +1,6 @@
 <h1><b>Python OS 📂</b></h1>
 <a href="https://www.python.org" target="_blank">
   <img src="https://img.shields.io/badge/Python-52BE80">
-</a>
-<a>
   <img src="https://img.shields.io/badge/OS-F7DC6F">
 </a>
 

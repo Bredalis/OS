@@ -1,5 +1,5 @@
 
-# Librerias
+# Librerías
 
 import os
 

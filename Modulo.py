@@ -1,13 +1,17 @@
 
 import os
 
-ruta = os.getcwd()
+try:
+	# Cambiar al directorio especificado y listar su contenido
+	url = "C:/Users/Bradalis/Desktop/LenguajesDeProgramacion/Practica"
+	os.chdir(url)
+	directorios = os.listdir()
 
-# Cambiar de directorio actual
+	print(f"Ruta actual: {os.getcwd()}")
+	print(f"Contenido del directorio: {directorios}")
 
-url = "C:/Users/Bradalis/Desktop/LenguajesDeProgramacion/BBDD/Programas"
-nueva_ruta = os.chdir(url)
-directorios = os.listdir()
+except FileNotFoundError:
+	print(f"Error: El directorio '{url}' no existe.")
 
-print(f"Obtener ruta: {ruta}")
-print(f"Lista de directorios: {directorios}")
+except Exception as e:
+	print(f"Error inesperado: {e}")

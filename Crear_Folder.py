@@ -1,8 +1,9 @@
 
 import os
 
-folder = os.mkdir("Folder") # Crear carpeta
-multifolders = os.makedirs("A/B/C")
-ruta = os.getcwd() # Obtener ruta
+# Crear una carpeta y subcarpetas
+os.mkdir("Folder")
+os.makedirs("A/B/C")
 
-print(f"Ruta: {ruta}") 
+# Obtener y mostar la ruta actual
+print(f"Ruta: {os.getcwd()}")

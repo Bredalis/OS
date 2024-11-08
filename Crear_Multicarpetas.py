@@ -1,6 +1,5 @@
 
-# Librerías
-
 import os
 
-multifolders = os.makedirs("A/B/C") # Crear multicarpetas
+# Crear subcarpetas
+os.makedirs("A/B/C")
